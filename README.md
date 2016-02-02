@@ -1,5 +1,15 @@
 # Gitrob
 
+**elationfoundation UPDATED** Easy one-off setups can be done using the modified Vagrantfile in this repo. Just do the following.
+
+```
+vagrant up
+vagrant ssh
+sudo gem install gitrob
+gitrob --configure
+gitrob -o [ORGANIZATION NAME]
+```
+
 <hr />
 ## Code freeze
 **I haven't had a lot of time to maintain and expand Gitrob after its release, however this has changed now. I am now working on a complete refactoring of the tool and will try to incorporate as many of the requested features as possible. The current code will be frozen for now and open pull requests will therefore not be merged.**
